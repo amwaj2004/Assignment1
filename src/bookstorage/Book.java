@@ -6,6 +6,7 @@ public class Book {
  private String ISBN;
  private double price;
  
+ //CONSTRUCTORS
  /**
   * this is a default constructor that initializes its attributes
   * title - initialized to Unknown
@@ -44,4 +45,8 @@ public Book(Book copy) {
 	this.ISBN = copy.ISBN;
 	this.price = copy.price;
 }
+
+//GETTERS AND SETTERS
+
+
 }
