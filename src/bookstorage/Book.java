@@ -70,6 +70,9 @@ public double getPrice() {
 public void setPrice(double price) {
 	this.price = price;
 }
-
+	
+	public String toString() {
+		return "[Book: Title = "+title+", Author = "+author+", ISBN = "+ISBN+", Price = "+price+"]";
+	}
 
 }
