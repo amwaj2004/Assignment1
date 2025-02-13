@@ -70,7 +70,15 @@ public double getPrice() {
 public void setPrice(double price) {
 	this.price = price;
 }
-	
+//METHODS
+public boolean equals(Book other) {
+	if(this.ISBN == other.ISBN) {
+		return true;
+	}
+	return false;
+}
+
+@Override
 	public String toString() {
 		return "[Book: Title = "+title+", Author = "+author+", ISBN = "+ISBN+", Price = "+price+"]";
 	}
