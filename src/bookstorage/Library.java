@@ -71,7 +71,7 @@ public class Library {
 	 */
 	public void displayBooks() {
 		for(int i = 0; i < books.length; i++) {
-			if(books[i] != null) {
+			if(books[i]!= null) {
 				System.out.println(books[i].toString());
 			}
 		}

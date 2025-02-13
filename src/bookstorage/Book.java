@@ -71,6 +71,11 @@ public void setPrice(double price) {
 	this.price = price;
 }
 //METHODS
+/**
+ * This function checks in the current book is equal to another
+ * @param other-the imported book in order to compare
+ * @return
+ */
 public boolean equals(Book other) {
 	if(this.ISBN == other.ISBN) {
 		return true;
