@@ -1,6 +1,4 @@
-package bookstorage;
-
-import java.util.Arrays;
+package bookstorage; 
 
 public class Library {
 	private Book[] books;
