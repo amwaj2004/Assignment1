@@ -21,7 +21,8 @@ public class LibraryApp {
 		System.out.println(userLibrary.searchByISBN("1111"));
 	
 	//removing a book that exists
-		if(userLibrary.removeBook("The fault in our stars")) {
+	boolean result = userLibrary.removeBook("The fault in our stars");
+		if(result) {
 			System.out.println("The book has been removed");
 		}
 	}
