@@ -19,6 +19,10 @@ public class LibraryApp {
 		
 	//searching by ISBN
 		System.out.println(userLibrary.searchByISBN("1111"));
-		
+	
+	//removing a book that exists
+		if(userLibrary.removeBook("The fault in our stars")) {
+			System.out.println("The book has been removed");
+		}
 	}
 }
