@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 package bookstorage; 
+=======
+package bookstorage;
+
+>>>>>>> da1f2c7769272b5db61a16038b8b93f6e2c3c14d
 
 public class Library {
 	private Book[] books;
